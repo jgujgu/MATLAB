@@ -3,9 +3,8 @@ function p = predict(Theta1, Theta2, X)
 %   p = PREDICT(Theta1, Theta2, X) outputs the predicted label of X given the
 %   trained weights of a neural network (Theta1, Theta2)
 
-% Useful values
 m = size(X, 1);
-num_labels = size(Theta2, 1);
+
 a1 = [ones(m, 1) X];
 
 z2 = a1 * Theta1';
