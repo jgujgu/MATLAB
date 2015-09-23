@@ -144,10 +144,10 @@ initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 fprintf('\nChecking Backpropagation... \n');
 
 %  Check gradients by running checkNNGradients
-checkNNGradients;
+%checkNNGradients;
 
-fprintf('\nProgram paused. Press enter to continue.\n');
-pause;
+%fprintf('\nProgram paused. Press enter to continue.\n');
+%pause;
 
 
 %% =============== Part 8: Implement Regularization ===============
