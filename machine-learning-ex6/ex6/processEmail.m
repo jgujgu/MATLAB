@@ -75,7 +75,7 @@ while ~isempty(email_contents)
        continue;
     end
 
-    [truefalse, index] = ismember(str, vocabList)
+    [truefalse, index] = ismember(str, vocabList);
 
     if index > 0
       word_indices = [word_indices ; index];
